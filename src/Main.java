@@ -47,6 +47,26 @@ public class Main {
         byte oneClassPaint = 6;
         byte classInSchool = (byte) (allPaint / oneClassPaint);
         System.out.println("В школе, где " + classInSchool + " классов, нужно " + (whitePaintClass * classInSchool) + " банок белой краски и " + (brownPaintClass * classInSchool) + " банок коричневой краски");
+        //task 6
+        byte bananas = 5;
+        byte oneBananaWeight = 80;
+        short bananasWeight = (short) (oneBananaWeight * bananas);
+        short milk = 2;
+        byte oneMlMilkWeight = 105;
+        short milkWeight = (short) (oneMlMilkWeight * milk);
+        byte iceCream = 2;
+        byte oneIceCreamWeight = 100;
+        short iceCreamWeight = (short) (oneIceCreamWeight * iceCream);
+        byte eggs = 4;
+        byte oneEggWeight = 70;
+        short eggsWeight = (short) (oneEggWeight * eggs);
+        short breakfastG = (short) (bananasWeight + milkWeight + iceCreamWeight + eggsWeight);
+        double breakfastKg = (double) breakfastG / 1000;
+        System.out.println(breakfastG);
+        System.out.println(breakfastKg);
+
+
+
 
 
 
