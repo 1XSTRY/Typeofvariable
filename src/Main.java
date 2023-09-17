@@ -75,6 +75,29 @@ public class Main {
         System.out.println(dayOnWeightLostMin);
         System.out.println(dayOnWeightLostMax);
         System.out.println("в среденем понадобится " + ((dayOnWeightLostMax + dayOnWeightLostMin) / 2) + " дней");
+        //task 8
+        int mashaSal = 67760;
+        int denisSal = 83690;
+        int kristinaSal = 76230;
+        int mashaSalYear = mashaSal * 12;
+        int denisSalYear = denisSal * 12;
+        int kristinaSalYear = kristinaSal * 12;
+        short mashaIncPer = (short) (((float) mashaSal / 100) * 10);
+        int mashaIncSal = mashaIncPer + mashaSal;
+        short denisIncPer = (short) (((float) denisSal / 100) * 10);
+        int denisIncSal = denisIncPer + denisSal;
+        short kristinaIncPer = (short) (((float) kristinaSal / 100) * 10);
+        int kristinaIncSal = kristinaIncPer + kristinaSal;
+        int mashaIncSalYear = (mashaIncSal * 12);
+        int denisIncSalYear = denisIncSal * 12;
+        int kristinaIncSalYear = kristinaIncSal * 12;
+        int mashaDifSalYear = (mashaIncSalYear - mashaSalYear);
+        int denisDifSalYear = (denisIncSalYear - denisSalYear);
+        int kristinaDifSalYear = (kristinaIncSalYear - kristinaSalYear);
+        System.out.println("Маша теперь получает " + mashaIncSalYear + " рублей. Годовой доход вырос на " + mashaDifSalYear + " рублей");
+     System.out.println("Денис теперь получает " + denisIncSalYear + " рублей. Годовой доход вырос на " + denisDifSalYear + " рублей");
+     System.out.println("Кристина теперь получает " + kristinaIncSalYear + " рублей. Годовой доход вырос на " + kristinaDifSalYear + " рублей");
+
 
 
 
