@@ -40,6 +40,19 @@ public class Main {
         System.out.println("За день машина произвела " +  (bottlesPerMin * oneDay) + " штук бутылок");
         System.out.println("За 3 дня машина произвела " + (bottlesPerMin * oneDay * 3) + " штук бутылок");
         System.out.println("За 3 мес машина произвела " + (bottlesPerMin * oneDay * 30) + " штук бутылок");
+        //task 5
+        byte allPaint = 120;
+        byte whitePaintClass = 2;
+        byte brownPaintClass = 4;
+        byte oneClassPaint = 6;
+        byte classInSchool = (byte) (allPaint / oneClassPaint);
+        System.out.println("В школе, где " + classInSchool + " классов, нужно " + (whitePaintClass * classInSchool) + " банок белой краски и " + (brownPaintClass * classInSchool) + " банок коричневой краски");
+
+
+
+
+
+
 
 
 
