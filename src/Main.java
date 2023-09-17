@@ -64,6 +64,19 @@ public class Main {
         double breakfastKg = (double) breakfastG / 1000;
         System.out.println(breakfastG);
         System.out.println(breakfastKg);
+        //task 7
+        short gInKg = 1000;
+        byte weightLostKg = 7;
+        short weightLostG = (short) (weightLostKg * gInKg);
+        short weightLostInDayMin = 250;
+        short weightLostInDayMax = 500;
+        byte dayOnWeightLostMax = (byte) (weightLostG / weightLostInDayMin);
+        byte dayOnWeightLostMin = (byte) (weightLostG / weightLostInDayMax);
+        System.out.println(dayOnWeightLostMin);
+        System.out.println(dayOnWeightLostMax);
+        System.out.println("в среденем понадобится " + ((dayOnWeightLostMax + dayOnWeightLostMin) / 2) + " дней");
+
+
 
 
 
