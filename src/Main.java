@@ -15,6 +15,16 @@ public class Main {
         double e = 4.54064369;
         System.out.println("Значение переменной pi с типом float равно " + pi);
         System.out.println("Значение переменной e с типом double равно " + e);
+        //task 2
+        float alfa = 27.12f;
+        long bravo = 987678965549L;
+        float charlie = 2.786f;
+        short delta = -159;
+        short echo = 27897;
+        byte foxfort = 67;
+        System.out.println( alfa + "\n" + bravo + "\n" + charlie + "\n" + delta + "\n" + echo + "\n" + foxfort);
+
+
 
 
 
