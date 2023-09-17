@@ -30,6 +30,17 @@ public class Main {
         byte totalStudents = (byte) (ludmilaPavlovnaStudents + annaSergeevnaStudents + ekaterinaAndreevnaStudents);
         short paper = 480;
         System.out.println("На каждого ученика рассчитано " + (paper / totalStudents) + " листов бумаги");
+        //task 4
+        byte oneMin = 1;
+        byte oneHour = (byte) (oneMin * 60);
+        short oneDay = (short) (oneHour * 24);
+        byte bottlesPerMin = 16 / 2;
+        System.out.println("За 20 мин машина произвела " + (bottlesPerMin * 20) + " штук бутылок");
+        System.out.println("За час машина произвела " +  (bottlesPerMin * oneHour) +  " штук бутылок");
+        System.out.println("За день машина произвела " +  (bottlesPerMin * oneDay) + " штук бутылок");
+        System.out.println("За 3 дня машина произвела " + (bottlesPerMin * oneDay * 3) + " штук бутылок");
+        System.out.println("За 3 мес машина произвела " + (bottlesPerMin * oneDay * 30) + " штук бутылок");
+
 
 
 
