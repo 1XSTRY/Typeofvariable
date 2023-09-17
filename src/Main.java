@@ -23,6 +23,15 @@ public class Main {
         short echo = 27897;
         byte foxfort = 67;
         System.out.println( alfa + "\n" + bravo + "\n" + charlie + "\n" + delta + "\n" + echo + "\n" + foxfort);
+        //task 3
+        byte ludmilaPavlovnaStudents = 23;
+        byte annaSergeevnaStudents = 27;
+        byte ekaterinaAndreevnaStudents = 30;
+        byte totalStudents = (byte) (ludmilaPavlovnaStudents + annaSergeevnaStudents + ekaterinaAndreevnaStudents);
+        short paper = 480;
+        System.out.println("На каждого ученика рассчитано " + (paper / totalStudents) + " листов бумаги");
+
+
 
 
 
