@@ -82,11 +82,12 @@ public class Main {
         int mashaSalYear = mashaSal * 12;
         int denisSalYear = denisSal * 12;
         int kristinaSalYear = kristinaSal * 12;
-        short mashaIncPer = (short) (((float) mashaSal / 100) * 10);
+        double percent = 10 / 100D;
+        short mashaIncPer = (short) (mashaSal * percent);
         int mashaIncSal = mashaIncPer + mashaSal;
-        short denisIncPer = (short) (((float) denisSal / 100) * 10);
+        short denisIncPer = (short) (denisSal * percent);
         int denisIncSal = denisIncPer + denisSal;
-        short kristinaIncPer = (short) (((float) kristinaSal / 100) * 10);
+        short kristinaIncPer = (short) (kristinaSal * percent);
         int kristinaIncSal = kristinaIncPer + kristinaSal;
         int mashaIncSalYear = (mashaIncSal * 12);
         int denisIncSalYear = denisIncSal * 12;
